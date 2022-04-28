@@ -21,107 +21,316 @@ Activity Code WDC028-12 | Capstone 1 Development - Developer Portfolio
  -->
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Boostrap CSS CDN -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Kyle</title>
+		<!-- Boostrap CSS CDN -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-	<!-- Navbar Start -->
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-	  <div class="container-fluid">
-	    <a class="navbar-brand" href="#">
-	      <img src="./images/kyle (21 × 21 cm).png" width="30" height="30" class="d-inline-block align-text-top">
-	      Kyle Gaona
-	    </a>
-	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	      <span class="navbar-toggler-icon"></span>
-	    </button>
-	    <div class="collapse navbar-collapse" id="navbarNav">
-	      <ul class="navbar-nav list-inline mx-auto justify-content-center">
-	        <li class="nav-item">
-	          <a class="nav-link active" aria-current="page" href="#">About</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link" href="#">Skills & Experience</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link" href="#">Projects</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link" href="#">Contact Me</a>
-	        </li>
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
-	<!-- Navbar End -->
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="./styles/style.css">
 
-	<!-- Main Content? Start -->
-	<div class="container-fluid text-center">
-		<!-- Landing Start -->
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
-		<div class="d-lg-flex justify-content-center p-5 mt-5">
-		<!-- Cards Start-->
-			<!-- Card1 Start style="width: 50rem;"-->
-<!-- 			<div class="card bg-dark text-light col-xl-6 min-vw-50">
-			  <div class="card-body">
-			    <h3 class="card-title">Full-Stack Web Development & Analytics</h3>
-			    <h6 class="card-subtitle mb-2 text-muted">End-to-End Web Design & Analytics</h6>
-			    <p class="card-text">Why hire multiple freelancers when you can get full accountability for your projects from one professional?</p>
-			    <a href="#link" class="btn btn-info" role="button">Link Button</a>
-			  </div>
-			</div> -->
-			<div class="jumbotron jumbotron-fluid">
-			  <h1 class="display-3">Full-Stack Web Development & Analytics</h1>
-			  <p class="lead">End-to-End Web Design & Analytics</p>
-			  <hr class="my-2">
-			  <p>Why hire multiple freelancers when you can get full accountability for your projects from one professional?</p>
-			  <p class="lead">
-			    <a class="btn btn-primary btn-lg" href="#!" role="button">Let's Talk</a>
-			  </p>
+		<!-- Do Not Index This Page -->
+		<meta name="robots" content="noindex">
+
+		<title>Developer Portfolio - Kyle</title>
+	</head>
+
+	<body>
+		<!-- Navbar Start -->
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	        <a href="#landing" class="navbar-brand p-3">Kyle Gaona</a>
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolio-nav">
+	            <span class="navbar-toggler-icon"></span>
+	        </button>
+	        <div class="collapse navbar-collapse  justify-content-center" id="portfolio-nav">
+	            <!-- <ul class="navbar-nav ml-auto text-center text-md-left"> -->
+	            	<ul class="navbar-nav list-inline mx-auto justify-content-center text-center">
+	                <li class="nav-item">
+	                    <a href="#landing" class="nav-link">Home</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a href="#skills" class="nav-link">Skills & Experience</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a href="#projects" class="nav-link">Projects</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a href="#contactme" class="nav-link">Contact Me</a>
+	                </li>
+	            </ul>
+	        </div>
+	    </nav>
+		<!-- Navbar End -->
+
+		<!-- Main Content? Start -->
+		<div class="container-fluid" id="landing">
+			<!-- Landing Start -->
+			<div class="row mt-5 p-3 text-dark  text-center">
+				<div class="col-sm-6">	
+					<div class="jumbotron jumbotron-fluid">
+					  <h1 class="display-3">Full-Stack Web Development & Analytics</h1>
+					  <p class="lead">End-to-End Web Design & Analytics</p>
+					  <hr class="my-2">
+					  <p>Why hire multiple freelancers when you can get full project accountability from ONE professional?</p>
+					  <p class="lead">
+					    <a class="btn btn-primary btn-lg" href="#contactme" role="button">Let's Talk</a>
+					  </p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+						<img class="fixed-ratio-resize" src="./images/animation_500_l2hsgkz4_white.gif">
+				</div>
 			</div>
-			<!-- Card1 End -->
+			<!-- Landing End -->
 
-			<!-- Card2 Start -->
-<!-- 			<div class="card text-center bg-dark col-xl-6 min-vw-50">
-			  <div class="card-body">
-			  	<div class="d-flex align-items-center">
-			    	<img src="./images/kgLearnMore.png"  width="100" height="100" class="mx-auto">
+			<!-- Skills & Experience Start -->
+			<!-- <div class="row p-3 bg-secondary text-white"> -->
+			<div class="row p-3 yellow" id="skills">	
+				<!-- Tools Start -->
+				<div class="col-sm-6">	
+					<div class="jumbotron jumbotron-fluid">
+					  <h1 class="display-3 text-left">Skills & Experience</h1>
+					  
+					  <!-- Front-End Start -->
+					  <hr class="my-2">
+					  <p class="lead">Front-End</p>
+					  <div class="row justify-content-left">
+					  	<img class="fixed-ratio-resize-2" src="./images/HTML.png" >
+					  	<img class="fixed-ratio-resize-2" src="./images/CSS.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/JS.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/Bootstrap.png">
+							<!--<div class="col-sm-4">
+					  		<img src="./images/HTML.png" class="img-rounded" style="max-height: 50px; max-width: 50px;">	
+					  	</div> -->
+					  </div>
+					  <!-- Front-End End -->
+
+					  <!-- MERN Start -->
+					  <hr class="my-2">
+					  <p class="lead">MERN (In-Progress)</p>
+					  <div class="row justify-content-left">
+					  	<img class="fixed-ratio-resize-2" src="./images/MongoDB.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/ExpressJS.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/React.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/NodeJS.png">
+					  </div>
+					  <!-- MERN End -->	
+
+					  <!-- Analytics Start -->
+					  <hr class="my-2">
+					  <p class="lead">Analytics, ETL & Data Management</p>
+					  <div class="row justify-content-left">
+					  	<img class="fixed-ratio-resize-2" src="./images/PowerBI.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/GoogleDataStudio.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/Pentaho.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/Tableau.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/KNIME.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/R.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/Python.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/MySQL.png">
+					  </div>
+					  <!-- Analytics End -->	
+
+					  <!-- PM Start -->
+					  <hr class="my-2">
+					  <p class="lead">Project Management</p>
+					  <div class="row justify-content-left">
+					  	<img class="fixed-ratio-resize-2" src="./images/LSSYellow.png">
+					  </div>
+					  <!-- PM End -->
+
+					  <!-- Others Start -->
+					  <hr class="my-2">
+					  <p class="lead">Others (In-Progress)</p>
+					  <div class="row justify-content-left mb-5">
+					  	<img class="fixed-ratio-resize-2" src="./images/Git.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/Sublime.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/Postman.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/Tableau.png">
+					  	<img class="fixed-ratio-resize-2" src="./images/Heroku.png">
+					  </div>
+					  <!-- Others End -->	
+
+					</div>
+				</div>
+				<!-- Tools End -->
+
+				<!-- Experience Start -->
+				<div class="col-sm-6 p-3">
+					<div class="jumbotron jumbotron-fluid text-left">
+						<h1 class="display-6">Analytics Experience</h1>
+
+						<hr class="my-2">
+						<div class="row">
+							<div class="col-sm-4">
+								<p>>1 Year</p>
+							</div>
+							<div class="col-sm-8">
+								<p class="lead">Ad Tech - Ad Operations</p>	
+								<p>Analytics Lead</p>
+								<p>Yield Analyst</p>
+							</div>					
+						</div>
+
+						<hr class="my-2">
+						<div class="row">
+							<div class="col-sm-4">
+								<p>>10 Years</p>
+							</div>
+							<div class="col-sm-8">
+								<p class="lead">Business Process Outsourcing</p>
+								<p>Workforce Manager</p>
+								<p>Metrics & Reports Analysis Supervisor</p>
+								<p>Program Administrator</p>	
+							</div>					
+						</div>
+
+					</div>
+				</div>
+				<!-- Experience End -->
+			</div>
+			<!-- Skills & Experience End -->
+
+			<!-- Projects Start -->
+			<div class="row yellow p-3"  id="projects">	
+				<div class="col-sm-12">	
+					<div class="jumbotron jumbotron-fluid">
+					  <h1 class="display-3 text-left">Latest Projects</h1>
+					  <hr class="my-2">
+					  <p class="lead">I have varied interests & enjoy working on forecasting models & developing data pipelines.</p>
+
+					  <!-- Start Project Carousel -->
+					  <div class="row d-none d-md-block mt-md-5">
+					    <div class="offset-xl-3 col-xl-6">
+					      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					        <ol class="carousel-indicators">
+					          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+					          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+					          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					        </ol>
+					        <div class="carousel-inner">
+					          <div class="carousel-item active">
+					            <img src="./images/Project1.png" class="d-block w-100">
+					            <div class="carousel-caption d-none d-md-block">
+					              <h5>Gross Revenue Projections with Seasonality</h5>
+					              <p>Implemented on RStudio using the Prophet library. Visualized through Tableau.</p>
+					            </div>
+					          </div>
+					          <div class="carousel-item">
+					            <img src="./images/Project2.png" class="d-block w-100">
+					            <div class="carousel-caption d-none d-md-block">
+					              <h5>Reducing Gross Margin Variance on Split Work-at-Home & Work-on-Site Operations</h5>
+					              <p>An End-to-End Data Science Project completed through RStudio.</p>
+					            </div>
+					          </div>
+					          <div class="carousel-item">
+					            <img src="./images/Project3.png" class="d-block w-100">
+					            <div class="carousel-caption d-none d-md-block">
+					              <h5>Cryptocurrency Exchange Arbitrage (Ongoing)</h5>
+					              <p>A profitability study using signals from the Poloniex Exchange</p>
+					            </div>
+					          </div>
+					        </div>
+					        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+					          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					          <span class="sr-only">Previous</span>
+					        </button>
+					        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+					          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					          <span class="sr-only">Next</span>
+					        </button>
+					      </div>
+					    </div>
+					  </div>
+					  <!-- End Project Carousel -->
+					</div>
+				</div>
+			</div>		  
+			<!-- Projects End -->
+
+			<!-- Contact Form Section Start -->
+			<div class="row d-md-block text-center p-3"  id="contactme">
+		    <h1 class="display-3 text-left">Contact Me</h1>
+		    <hr class="my-2">
+		    <p class="lead">Leave me a note! I look forward to helping you out with your project!</p>
+		    <div class="row mt-3">
+		        <form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 yellow p-3 rounded">
+		            <div class="form-group">
+		                <label class="p-1" for="name">Name</label>
+		                <input type="text" class="form-control" id="name" placeholder="Your Name">
+		            </div>
+		            <div class="form-group">
+		                <label class="p-1" for="email">Email address</label>
+		                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+		            </div>
+		            <div class="form-group">
+		                <label class="p-1" for="contact">Contact Number</label>
+		                <input type="text" class="form-control" placeholder="+63 900 000 0000" id="contact">
+		            </div>
+		            <div class="form-group">
+		                <label class="p-1" for="concern">Inquiry</label>
+		                <select class="form-control" id="concern">
+		                    <option>Web Development</option>
+		                    <option>Analytics</option>
+		                    <option>Others</option>
+		                </select>
+		            </div>
+		            <div class="form-group mb-2">
+		                <label class="p-1" for="message">Message</label>
+		                <textarea class="form-control" id="message" rows="5"></textarea>
+		            </div>
+		            <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+		        </form>
+		    </div>
+			</div>
+			<!-- Contact Form Section End -->
+
+			<!-- Modal Start -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <h5 class="modal-title" id="exampleModalLabel">Thank you for your message!</h5>
+			                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			                  <span aria-hidden="true">&times;</span>
+			              </button>
+			          </div>
+			          <div class="modal-body">
+			            I will circle back as soon as I review your inquiry.
+			        </div>
+			        <div class="modal-footer">
+			            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			        </div>
 			    </div>
-			  </div>
-			</div> -->
-			<div class="jumbotron jumbotron-fluid">
-			  <h1 class="display-3">
-			  	  	<img src="./images/kgLearnMore.png"  width="300" height="300" class="mx-auto">
-			  	  </div>
-			  </h1>
 			</div>
-			<!-- Card2 End -->
-		<!-- Cards End -->
+			<!-- Modal End -->
+		</div>
+		<!-- Main Content? End -->
 
-<!-- 		<div class="bg-dark p-3 text-light d-flex">
-			<div class="opacity-25">
-			  <img src="./images/bgi.png" class="w-75">
-			</div>
-		</div> -->
-		<!-- Landing End -->
-	</div>
-	<!-- Main Content? End -->
+		<!-- Footer Start -->
+		<div class="container">
+		  <footer class="py-3 my-4">
+		    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+		      <li class="nav-item"><a href="#landing" class="nav-link px-2 text-muted">Home</a></li>
+		      <li class="nav-item"><a href="#skills" class="nav-link px-2 text-muted">Skills & Experience</a></li>
+		      <li class="nav-item"><a href="#projects" class="nav-link px-2 text-muted">Projects</a></li>
+		      <li class="nav-item"><a href="#contactme" class="nav-link px-2 text-muted">Contact Me</a></li>
+		    </ul>
+		    <p class="text-center text-muted">&copy; 2022 All Rights Reserved</p>
+		  </footer>
+		</div>
+		<!-- Footer End -->
 
-	<!-- Landing Page -->
-	<!-- <p>Hi I'm Kyle Gaona</p> -->
-	<!-- Make this a button -->
-	<!-- <p>Hire Me</p> -->
-	<!-- Insert Icons -->
-	<!-- About Me -->
-	<!-- Gallery? -->
-	<!-- Contact -->
-</head>
-<body>
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+	</body>
 </html>
